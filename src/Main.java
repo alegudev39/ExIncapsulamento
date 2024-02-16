@@ -5,6 +5,11 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Car auto = new Car (1800, "CR539ME" , "Renault" , "Kangoo");
+
+        System.out.println("I dati inseriti sono " + auto);
+
+
     }
 }
